@@ -12715,3 +12715,15 @@ ol.commentlist li .star-rating {
     opacity: 0.5;
     z-index: -1;
 }
+
+
+/* whatsapp btn */
+.whatsapp-btn{
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+
+}
+.whatsapp-btn img{
+    width: 70px;
+}
