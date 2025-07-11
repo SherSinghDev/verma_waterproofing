@@ -1716,8 +1716,8 @@ dl dd {
 
 /*effect 9*/
 
-.dez-img-overlay9:before,
-.dez-img-overlay9:after {}
+/* .dez-img-overlay9:before,
+.dez-img-overlay9:after {} */
 
 .dez-img-overlay9:after {
     left: auto;
@@ -2306,7 +2306,7 @@ label {
 
 input[type=checkbox],
 input[type=radio] {
-    display: ;
+    /* display: ; */
     opacity: 0;
     margin-left: 1px !important;
 }
@@ -2762,7 +2762,7 @@ blockquote:before {
 }
 
 .top-bar a {
-    vertical-align: middle;
+    /* vertical-align: middle; */
     background-color: rgba(255, 255, 255, 0.06);
     border: 1px solid rgba(255, 255, 255, 0.02);
     padding: 0px;
@@ -3457,9 +3457,9 @@ blockquote:before {
         padding: 4px 0;
     }
 
-    .header-nav .nav>li>a {
+    /* .header-nav .nav>li>a {
         padding: ;
-    }
+    } */
 
     .header-nav .nav i {
         margin-top: 6px;
@@ -3908,7 +3908,7 @@ blockquote:before {
 }
 
 .header-style-2 .header-nav {
-    display: inline-block;
+    /* display: inline-block; */
     float: left;
 }
 
@@ -4057,7 +4057,7 @@ blockquote:before {
     }
 
     .header-style-5 .header-nav .nav>li.menu-item-has-children::before {
-        color: #66666;
+        color: #666666;
     }
 
     .header-style-5 .main-bar {
@@ -4551,7 +4551,7 @@ blockquote:before {
 .owl-theme .owl-dots .owl-dot {
     display: inline-block;
     zoom: 1;
-    *display: inline;
+    display: inline;
 }
 
 .owl-theme .owl-dots .owl-dot span {
@@ -4560,7 +4560,7 @@ blockquote:before {
     margin: 5px 7px;
     background: #d6d6d6;
     display: block;
-    -webkit-backface-visibility: visible;
+    /* -webkit-backface-visibility: visible; */
     -webkit-transition: opacity 200ms ease;
     -moz-transition: opacity 200ms ease;
     -ms-transition: opacity 200ms ease;
@@ -4577,7 +4577,7 @@ blockquote:before {
 }
 
 /* owl dots style */
-.owl-theme.dots-style-1 .owl-dots .owl-dot {}
+/* .owl-theme.dots-style-1 .owl-dots .owl-dot {} */
 
 .owl-theme.dots-style-1 .owl-dots .owl-dot span,
 .owl-theme.dots-style-2 .owl-dots .owl-dot span {
@@ -4867,7 +4867,7 @@ blockquote:before {
     margin-bottom: 30px;
 }
 
-.dez-post-info {}
+/* .dez-post-info {} */
 
 .dez-post-title {
     margin-bottom: 10px;
@@ -5606,7 +5606,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     border: 1px solid #e1e6eb;
     text-align: center;
     border-radius: 4px 0 0 4px;
-    -webkit- border-radius: 4px 0 0 4px;
+    -webkit-border-radius: 4px 0 0 4px;
 }
 
 .comments-area p.comment-form-author:before {
@@ -7243,7 +7243,7 @@ a,
 .site-button-link.yellow:hover,
 .site-button-link.yellow:active,
 .site-button-link.yellow:focus {
-    color: ##d4af19;
+    color: #d4af19;
 }
 
 /* purple */
@@ -9374,11 +9374,11 @@ a,
     background: #FFF;
 }
 
-.overlay-primary-light:after,
+/* .overlay-primary-light:after,
 .overlay-primary-middle:after,
 .overlay-primary-dark:after {
     background: ;
-}
+} */
 
 .overlay-black-light:after {
     opacity: 0.3;
@@ -10237,13 +10237,13 @@ footer#footer {
     height: 100%;
 }
 
-.dez-top-footer-overlay:before {
+/* .dez-top-footer-overlay:before {
     opacity: ;
-}
+} */
 
-.dez-bottom-footer-overlay:before {
+/* .dez-bottom-footer-overlay:before {
     opacity: ;
-}
+} */
 
 footer p {
     line-height: 20px;
@@ -10521,7 +10521,7 @@ button.scroltop {
 
 /*= Section Content Part =*/
 
-.section-content {}
+/* .section-content {} */
 
 @media only screen and (max-width: 1024px) {
     .section-full {
@@ -11070,7 +11070,7 @@ ol.commentlist li .star-rating {
 
     .site-footer .footer-bottom .col-md-4 {
         width: 33.33%;
-        display: inline-block;
+        /* display: inline-block; */
         float: left;
     }
 
@@ -11385,7 +11385,7 @@ ol.commentlist li .star-rating {
     background-color: #2C4A6B;
 }
 
-.mack-an-appointment {}
+/* .mack-an-appointment {} */
 
 .mack-an-appointment [class*="col-md-"] {
     padding: 0 7.5px
@@ -12722,8 +12722,12 @@ ol.commentlist li .star-rating {
     position: fixed;
     bottom: 50px;
     right: 10px;
-
+    z-index: 9999;
 }
 .whatsapp-btn img{
     width: 70px;
+}
+
+.main-bar-wraper{
+    z-index: 9999;
 }
