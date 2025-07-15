@@ -183,7 +183,7 @@ var SwigoSwitcher = function(){
 					},
 					{
 						option : "themeFullColor_logo_image",
-						value : "images/logo.png, images/logo-white.png, images/logo-white.png",
+						value : "images/client-logo/resize logo.png, images/client-logo/resize logo.png, images/client-logo/resize logo.png",
 					},
 					{
 						option : "themeFullColor_logo_selector",
@@ -316,7 +316,7 @@ var SwigoSwitcher = function(){
 					},
 					{
 						option : "themeFullColor_logo_image",
-						value : "images/logo-6.png, images/logo-white-6.png, images/logo-white-6.png",
+						value : "images/client-logo/resize logo.png, images/logo-white-6.png, images/logo-white-6.png",
 					},
 					{
 						option : "themeFullColor_logo_selector",
@@ -393,7 +393,8 @@ var SwigoSwitcher = function(){
 			var logoSrcArr		= jQuery(this).data('logo-image').split(',');
 			var arrCount = logoSelectorArr.length;
 			for(var i=0; i<arrCount; i++){
-				jQuery(logoSelectorArr[i]).attr('src',logoSrcArr[i]);
+				// jQuery(logoSelectorArr[i]).attr('src',logoSrcArr[i]);
+				jQuery(logoSelectorArr[i]).attr('src',"images/client-logo/resize logo.png");
 			}
 			return false;
 		});
@@ -538,7 +539,7 @@ var SwigoSwitcher = function(){
 
 		if(currentURL.indexOf('dark') > -1){
 			jQuery('body').addClass('layout-dark');
-			jQuery('.layout-dark .logo-dark img').attr('src','images/logo-white.png');
+			jQuery('.layout-dark .logo-dark img').attr('src','images/client-logo/resize logo.png');
 			setCookie('themeVersion_value','layout-dark','');
 		}else{
 			jQuery('body').addClass('layout-light');
