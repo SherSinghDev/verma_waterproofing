@@ -127,23 +127,23 @@ jQuery(document).ready(function() {
 	/*  Blog post Carousel function by = owl.carousel.js */
 	jQuery('.blog-carousel').owlCarousel({
 		loop:true,
-		autoplay:true,
+		autoplay:false,
 		margin:30,
 		nav:true,
-		dots: false,
+		dots: true,
 		navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>'],
 		responsive:{
 			0:{
 				items:1
 			},
 			480:{
-				items:2
+				items:1
 			},			
 			991:{
-				items:2
+				items:1
 			},
 			1000:{
-				items:3
+				items:1
 			}
 		}
 	})
