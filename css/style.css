@@ -12735,3 +12735,7 @@ ol.commentlist li .star-rating {
 .home-images img{
     height: 300px !important;
 }
+
+.team-images img{
+    height: 350px !important;
+}
